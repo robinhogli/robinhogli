@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Erle & Robin | Bryllup</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="logo-header">
-     <a href="index.html" class="logo-link"><div class="logo-circle">E & R</div></a>
+     <a href="index.html" class="logo-link"> <img src="images/logo.png" alt="Erle og Robin logo" class="logo-image" /></a>
   </header>
         <nav class="main-nav">
       <a href="index.html">Forside</a>
@@ -24,23 +24,37 @@
   <h1>Praktisk Informasjon</h1>
   <p>Her finner du all viktig informasjon du trenger for å gjøre oppholdet ditt perfekt.</p>
 
-  <section>
-    <h2>Beskrivelse</h2>
-    <p>Hotellet ligger i naturskjønne omgivelser ved sjøen, med enkel tilgang til sentrum. Parkeringsmuligheter finnes på stedet.</p>
+  <div class="taler-container">
+  <section class="taler">
+    <h2>Taler</h2>
+    <p>Ønsker du å holde en tale i bryllupet?</p>
+    <p>Ta kontakt med vår fantastiske toastmaster, Robert, på <a href="mailto:robert.b.norby@gmail.com">robert.b.norby@gmail.com</a></p>
+    <img src="images/Robert.jpg" alt="Roberto" class="small-photo" />
   </section>
+
+  <section class="taler-info">
+    <h2>Mer info kommer</h2>
+    <p>Her kommer det mer info etter hvert.</p>
+    <ul>
+      <li>Bla bla bla bla</li>
+      <li>Ta gjerne med notater</li>
+    </ul>
+  </section>
+</div>
 
   <section id="map-section">
     <h2>Hvor er hotellet?</h2>
+    <p>Hotellet ligger på Jeløy, i Moss. Se under for veibeskrivelse.</p>
     <!-- Google Maps embed -->
     <iframe 
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2028.368484396161!2d10.614161813257601!3d59.44360650176202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46414d2edae5be41%3A0x22b6476f47a09ff!2sHotell%20Refsnes%20Gods%20by%20Classic%20Norway%20Hotels!5e0!3m2!1sno!2sno!4v1748605287002!5m2!1sno!2sno"
-      width="50%" 
-      height="600" 
-      style="border:0;" 
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+        width="70%"
+        height="400"
+        style="border:0; border-radius: 8px;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
   </section>
 </main>
 
