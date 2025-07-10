@@ -297,8 +297,6 @@ section h2 {
   font-weight: normal;
   margin: 10px 0;
   color: var(--main-pink);
-  display: inline-block;
-  border-bottom: 3px solid var(--main-pink);
 }
 
 .taler-container {
@@ -322,8 +320,6 @@ section h2 {
   font-weight: normal;
   margin: 10px 0;
   color: var(--main-pink);
-  display: inline-block;
-  border-bottom: 3px solid var(--main-pink);
 }
 
 .faq-list {
